@@ -1,0 +1,22 @@
+{
+  "name": "loggercode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/cluster.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bull": "^4.16.0",
+    "cluster": "^0.7.7",
+    "dotenv": "^16.4.5",
+    "env": "^0.0.2",
+    "express": "^4.19.2",
+    "redis": "^4.7.0",
+    "winston": "^3.14.2"
+  }
+}
